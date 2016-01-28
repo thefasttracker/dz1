@@ -16,7 +16,9 @@
 		<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/about.css">
-		<!-- <link rel="stylesheet" href="fonts/fonts.css"> -->
+		<!-- Fonts -->
+		<link rel="stylesheet" href="css/fonts.css">
+		<!-- <link rel="stylesheet" href="css/spritesheet.css"> -->
 		<!-- Modernizr -->
 		<script src="bower/modernizer/modernizr.js"></script>
 	</head>
@@ -29,9 +31,224 @@
         Это необходимо для корректного отбражения современных сайтов. 
       </div>
     <![endif]-->
-    <p>Проверка локального сервера</p>
+    <div class="wrapper">
+      <!-- Header -->
+    	<header class="header">
+    			<div class="container-big clearfix">
+    				<a class="header-logo-link" href="http://loftschool.com">
+              <img class="header-logo-img" src="img/logo/main.png" alt="logo">
+						  <span class="header-logo-text">
+                Сайт портфолио
+              </span>
+            </a>
+            <ul class="socials">
+  						<li class="socials-item">
+  							<a class="socials-item-link fb" href="http://www.facebook.com" target="_blank">facebook.com</a>
+  						</li>
+  						<li class="socials-item">
+  							<a class="socials-item-link vk" href="http://www.vk.com" target="_blank">vk.com
+  							</a>
+  						</li>
+  						<li class="socials-item">
+  							<a class="socials-item-link tw" href="http://www.twitter.com" target="_blank">twitter.com</a>
+  						</li>
+  						<li class="socials-item">
+  							<a class="socials-item-link gh" href="http://www.github.com" target="_blank">github.com</a>
+  						</li>
+  					</ul>
+          </div>  
+			</header>
+    	<!-- Main content -->
+      <article class="main-content">
+        <div class="main-content-container clearfix">
+          <aside class="main-content-left">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-list-item active-menu">
+                  <a href="#" class="nav-list-link">Обо мне</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="#" class="nav-list-link">Мои Работы</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="#" class="nav-list-link">Обратная связь</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="contacts">
+              <ul class="contacts-header">
+                <li class="contacts-header-item">Контакты
+                </li>
+                <li class="contacts-list-item">
+                	<i class="contacts-list-mail"></i>
+                	<i class="contacts-list-bracket"></i>
+                	<a href="mailto:ft2@mail.ru" class="contacts-list-link mail">ft2@mail.ru</a>
+                </li>
+                <li class="contacts-list-item">
+                	<i class="contacts-list-phone"></i>
+                	<i class="contacts-list-bracket"></i>
+                  <a href="tel:+74951234567" class="contacts-list-link phone">+74951234567</a>
+                </li>
+                <li class="contacts-list-item">
+                	<i class="contacts-list-skype"></i>
+                	<i class="contacts-list-bracket"></i>
+                	<a href="skype:fasttracker1" class="contacts-list-link skype">fasttracker1</a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+        
+        	<div class="main-content-right">
+          	<section class="about-section">
+	          	<div class="about-section-header">
+	          		<h1 class="about-section-title">Основная информация</h1>
+	          	</div>
+	          	<div class="about-section-content clearfix">
+	            	<div class="about-section-photo">
+	            		<img src="img/userpic/user.jpg" class="userpic" alt="userpic">
+	            	</div>
+	            	<ul class="about-section-list">
+	              	<li class="about-section-item">
+	                	<span class="about-section-name">Меня зовут:</span>
+	                	<span class="about-section-text">Новиков Олег</span>
+	              	</li>
+		              <li class="about-section-item">
+		                <span class="about-section-name">Мой возраст:</span>
+		                <span class="about-section-text">34 года</span>
+		              </li>
+		              <li class="about-section-item">
+		                <span class="about-section-name">Мой город:</span>
+		                <span class="about-section-text">Москва, Россия</span>
+		              </li>
+		              <li class="about-section-item">
+		                <span class="about-section-name">Моя специализация:</span>
+		                <span class="about-section-text">FRONTEND developer</span>
+		              </li>
+		              <li class="about-section-item">
+		                <span class="about-section-name">Ключевые навыки:</span>
+		                <ul class="about-skill-list">
+		                  <li class="skill-list-item">Html</li>
+		                  <li class="skill-list-item">CSS</li>
+		                  <li class="skill-list-item">Javascript</li>
+		                  <li class="skill-list-item">jQuery</li>
+		                  <li class="skill-list-item">Gulp</li>
+		                  <li class="skill-list-item">Git</li>
+		                  <li class="skill-list-item">Npm</li>
+		                  <li class="skill-list-item">Bower</li>
+		                </ul>
+		              </li>
+		            </ul>
+	          	</div>
+          	</section>
+
+          	<section class="about-section">
+          		<div class="about-section-header">
+          			<h1 class="about-section-title">Опыт работы</h1>
+          		</div>
+          		<div class="about-section-content">
+            		<ul class="about-exp-list">
+              		<li class="about-exp-item clearfix">
+                		<div class="about-ico-wrapper pull-left">
+                			<i class="about-work-ico"></i>
+                		</div>
+                		<div class="about-exp-text pull-left">
+                			<div class="about-exp-name">Работа 3</div>
+                			<div class="about-exp-date">Январь 2013 - по настоящее время</div>
+                		</div>
+              			</li>
+              		
+              		<li class="about-exp-item clearfix">
+                		<div class="about-ico-wrapper pull-left">
+                			<i class="about-work-ico"></i>
+                		</div>
+                		<div class="about-exp-text pull-left">
+                			<div class="about-exp-name">Работа 2</div>
+                			<div class="about-exp-date">Январь 2010 - Январь 2013</div>
+                		</div>
+              		</li>
+              		
+              		<li class="about-exp-item clearfix">
+                		<div class="about-ico-wrapper pull-left">
+                			<i class="about-work-ico"></i>
+                		</div>
+                		<div class="about-exp-text pull-left">
+                			<div class="about-exp-name">Работа 1</div>
+                			<div class="about-exp-date">Январь 2008 - Январь 2010</div>
+                		</div>
+              		</li>
+            		</ul>
+          		</div>
+        		</section>
+
+        		<section class="about-section">
+          		<div class="about-section-header">
+          			<h1 class="about-section-title">Образование</h1>
+          		</div>
+	          	<div class="about-section-content">
+	            	<ul class="about-exp-list">
+	            		<li class="about-exp-item clearfix">
+	              		<div class="about-ico-wrapper pull-left">
+	              			<i class="about-loft-ico"></i>
+	              		</div>
+	              		<div class="about-exp-text pull-left">
+	              			<div class="about-exp-name">Курсы LoftSchool.ru</div>
+	              			<div class="about-exp-date">Январь 2016 - по настоящее время</div>
+	              		</div>
+	            		</li>
+	              		
+	            		<li class="about-exp-item clearfix">
+	              		<div class="about-ico-wrapper pull-left">
+	              			<i class="about-univ-ico"></i>
+	              		</div>
+	              		<div class="about-exp-text pull-left">
+	              			<div class="about-exp-name">Институт</div>
+	              			<div class="about-exp-date">Сентябрь 2002 - Июнь 2007</div>
+	              		</div>
+	            		</li>
+	            		
+	            		<li class="about-exp-item clearfix">
+	              		<div class="about-ico-wrapper pull-left">
+	              			<i class="about-school-ico"></i>
+	              		</div>
+	              		<div class="about-exp-text pull-left">
+	              			<div class="about-exp-name">Школа</div>
+	              			<div class="about-exp-date">Сентябрь 1990 - Июнь 2001</div>
+	              		</div>
+	            		</li>
+	            	</ul>
+	          	</div>
+        		</section>
+        	</div>
+        <div>
+      </article>
+
+    	<!-- <div class="empty"></div> -->
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+    	<div class="container">
+    		<div class="lock">
+    			<a href="#" class="lock-inner">ВХОД</a>
+    		</div>
+    		<div class="copyright">	&copy; 2016 Это мой сайт, пожалуйста, копируйте и воруйте его.</div>
+    	</div>
+    </footer>
   	<!-- JavaScript -->
 		<script src="bower/jquery/dist/jquery.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
