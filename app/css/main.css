@@ -370,10 +370,9 @@ ul
 .contacts-list-item
 {
     position: relative;
-
     height: 38px;
-
     border: 1px solid rgb(214, 213, 211);
+    border-top: none;
     background-color: #f2f0ef;
     background-image:    -moz-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
@@ -392,9 +391,9 @@ ul
 }
 .contacts-list-link
 {
-    font-family: 'Open Sans';
+    font-family: 'open_sansregular';
     font-size: 14px;
-    line-height: 2.3;
+    line-height: 2.8;
 
     position: absolute;
     left: 80px;
@@ -540,13 +539,11 @@ ul
 {
     display: inline-block;
     float: right;
-
-    width: 378px;
+    width: 385px;
 }
 .about-section-item
 {
     display: block;
-
     margin-bottom: 4px;
 }
 .about-section-item:last-child
@@ -577,28 +574,25 @@ ul
     float: left;
     width: 230px;
     max-width: 100%;
-    margin-left: 10px;
+    margin-left: 15px;
     padding: 0;
 }
 
 .skill-list-item
 {
+    position: relative;
     font-family: 'open_sanssemibold';
     font-size: 9px;
-
     display: inline-block;
-    float: left;
-
     height: 21px;
+    line-height: 1.7;
     margin-right: 17px;
     margin-bottom: 3px;
     padding-top: 5px;
-
     cursor: pointer;
     -ms-transform: matrix( .69018820800999,0,0,.69018820800999,0,0);
     text-align: center;
     text-transform: uppercase;
-
     color: #1e7465;
     background-image: url(../img/ico/skills-mid.png);
     background-repeat: repeat-x;
@@ -606,34 +600,29 @@ ul
 }
 .skill-list-item:before
 {
-    position: relative;
+    position: absolute;
+    left: -14px;
     right: 8px;
-
+    top: 0;
+    width: 14px;
+    height: 25px;
     display: inline-block;
-
-    min-width: 10px;
-    min-height: 19px;
     padding: 0;
-
     content: '';
     vertical-align: middle;
-
     background-image: url(../img/ico/skills-front.png);
 }
 .skill-list-item:after
 {
-    position: relative;
-    left: 4px;
-
+    position: absolute;
+    top: 0;
+    right: -9px;
     display: inline-block;
-
-    min-width: 4px;
-    min-height: 19px;
+    width: 9px;
+    height: 25px;
     padding: 0;
-
     content: '';
     vertical-align: middle;
-
     background-image: url(../img/ico/skills-back.png);
 }
 
@@ -784,16 +773,13 @@ ul
 {
     font-family: 'open_sanslight';
     font-size: 13px;
-
-    padding-top: 7px;
-
     text-align: center;
 }
 
 .footer .lock
 {
     position: absolute;
-    top: 26px;
+    top: 19px;
     left: 20px;
 }
 
