@@ -1,0 +1,168 @@
+
+/*================================
+=            Feedback            =
+================================*/
+
+.about-section-title
+{
+    font-family: 'open_sanslight';
+}
+
+.about-section-content
+{
+    padding-bottom: 100px;
+}
+
+.feedback-form-wrap
+{
+    margin: 33px 0 0 82px;
+}
+
+.feedback-form-contacts
+{
+    margin-bottom: 12px;
+}
+
+.feedback-form-name,
+.feedback-form-email
+{
+    display: block;
+    float: left;
+}
+
+.input
+{
+    padding-left: 8px;
+
+    border: 1px solid #c3c2c2;
+    border-radius: 4px;
+    background-color: #fbfcfd;
+    background-image: linear-gradient(to top, rgba(233, 231, 231, .6) 0%, transparent 100%);
+}
+
+.input::-webkit-input-placeholder,
+.input:-moz-placeholder,
+.input::-moz-placeholder,
+.input:-ms-input-placeholder
+{
+    font-family: 'open_sanslight';
+    font-size: 12px;
+
+    padding-left: 7px;
+
+    color: #c7c6c6;
+}
+
+.feedback-input-label
+{
+    font-size: 14px;
+
+    display: block;
+
+    margin-bottom: 8px;
+}
+
+.feedback-input-name
+{
+    font-size: 12px;
+    line-height: 36px;
+
+    width: 183px;
+}
+
+.feedback-form-email
+{
+    margin-left: 18px;
+}
+
+.feedback-input-email
+{
+    font-size: 12px;
+    line-height: 36px;
+
+    width: 183px;
+}
+
+.feedback-form-msg
+{
+    margin-bottom: 4px;
+}
+.feedback-input-msg
+{
+    font-size: 12px;
+
+    width: 384px;
+    height: 175px;
+    margin-bottom: 7px;
+    padding: 9px 10px;
+
+    resize: none;
+}
+
+.feedback-form-capcha
+{
+    float: left;
+}
+
+.feedback-input-capcha
+{
+    font-size: 14px;
+    line-height: 27px;
+
+    width: 182px;
+    margin: 24px 0 0 20px;
+}
+
+.feedback-form-buttons
+{
+    margin-top: 31px;
+    margin-bottom: 12px;
+}
+
+.feedback-form-button
+{
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    line-height: 22px;
+
+    width: 123px;
+    height: 39px;
+    margin-left: 30px;
+
+    color: #727070;
+    border: 1px solid #c3c2c2;
+    border-radius: 5px 4px 4px 5px;
+    background-color: #fbf9f9;
+    background-color: #faf9f9;
+    background-image: -webkit-linear-gradient(bottom, #e7e5e4 0%, #faf9f9 94%, white 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+}
+
+.res
+{
+    margin-left: 94px;
+}
+
+.feedback-form-button:hover
+{
+    background-image: -webkit-linear-gradient(bottom, #c0bebe 0%, #e0dfdf 67%, #e8e7e7 100%);
+    background-image:         linear-gradient(to top, #c0bebe 0%, #e0dfdf 67%, #e8e7e7 100%);
+}
+
+.active
+{
+    color: #1e7465;
+    border: 1px solid #3eb799;
+    background-color: #bfbfbf;
+    background-image: linear-gradient(to top, #3eb799 0%, #7ee8ce 100%);
+    box-shadow: 0 2px 1px 0 rgba(9, 9, 9, .16), inset 0 1px 0 0 rgba(255, 255, 255, .3);
+}
+
+.active:hover
+{
+    background-image: linear-gradient(to top, #7ee8ce 0%, #3eb799 100%);
+}
+
+
+/*=====  End of Feedback  ======*/

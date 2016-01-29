@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+		<title>feedback</title>
+		<!-- SEO -->
+		<meta name="description" content="Описание">
+		<meta name="keywords" content="dz1">
+		<meta name="author" content="Oleg Novikov">
+		<!-- Viewport -->
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<!-- Иконка сайта -->
+		<link rel="icon" href="../favicon.ico" type = "image/x-icon">
+		<!-- Css -->
+		<link rel="stylesheet" href="../bower/normalize-css/normalize.css">
+		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="../css/feedback.css">
+		<!-- Fonts -->
+		<link rel="stylesheet" href="../css/fonts.css">
+		<!-- <link rel="stylesheet" href="css/spritesheet.css"> -->
+		<!-- Modernizr -->
+		<script src="../bower/modernizer/modernizr.js"></script>
+	</head>
+	<body>
+		<!-- (c) copyright Oleg Novikov -->
+		<!--[if lt IE 9]>  
+    	<div class="ancients">
+        Вы пользуетесь устаревшим браузером :(
+        Пожалуйста, <a href="http://browsehappy.com/?locale=ru_RU">обновите</a> его.
+        Это необходимо для корректного отбражения современных сайтов. 
+      </div>
+    <![endif]-->
+    <div class="wrapper">
+      <!-- Header -->
+    	<header class="header">
+    			<div class="container-big clearfix">
+    				<a class="header-logo-link" href="http://loftschool.com">
+              <img class="header-logo-img" src="../img/logo/main.png" alt="logo">
+						  <span class="header-logo-text">
+                Сайт портфолио
+              </span>
+            </a>
+            <ul class="socials">
+  						<li class="socials-item">
+  							<a class="socials-item-link fb" href="http://www.facebook.com" target="_blank">facebook.com</a>
+  						</li>
+  						<li class="socials-item">
+  							<a class="socials-item-link vk" href="http://www.vk.com" target="_blank">vk.com
+  							</a>
+  						</li>
+  						<li class="socials-item">
+  							<a class="socials-item-link tw" href="http://www.twitter.com" target="_blank">twitter.com</a>
+  						</li>
+  						<li class="socials-item">
+  							<a class="socials-item-link gh" href="http://www.github.com" target="_blank">github.com</a>
+  						</li>
+  					</ul>
+          </div>  
+			</header>
+    	<!-- Main content -->
+      <article class="main-content">
+        <div class="main-content-container clearfix">
+          <aside class="main-content-left">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-list-item">
+                  <a href="../index.html" class="nav-list-link">Обо мне</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="#" class="nav-list-link">Мои Работы</a>
+                </li>
+                <li class="nav-list-item active">
+                  <a href="#" class="nav-list-link">Обратная связь</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="contacts">
+              <ul class="contacts-header">
+                <li class="contacts-header-item">Контакты
+                </li>
+                <li class="contacts-list-item">
+                	<i class="contacts-list-mail"></i>
+                	<i class="contacts-list-bracket"></i>
+                	<a href="mailto:ft2@mail.ru" class="contacts-list-link mail">ft2@mail.ru</a>
+                </li>
+                <li class="contacts-list-item">
+                	<i class="contacts-list-phone"></i>
+                	<i class="contacts-list-bracket"></i>
+                  <a href="tel:+74951234567" class="contacts-list-link phone">+74951234567</a>
+                </li>
+                <li class="contacts-list-item">
+                	<i class="contacts-list-skype"></i>
+                	<i class="contacts-list-bracket"></i>
+                	<a href="skype:fasttracker1" class="contacts-list-link skype">fasttracker1</a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+        
+        	<div class="main-content-right">
+          	<section class="about-section">
+	          	<div class="about-section-header">
+	          		<h1 class="about-section-title">У Вас интересный проект? Напишите мне</h1>
+	          	</div>
+	          	<div class="about-section-content clearfix">
+	            	<form class="feedback-form-wrap">
+                  
+                  <div class="feedback-form-contacts clearfix">
+                    
+                    <div class="feedback-form-name">
+                      <label class="feedback-input-label" for="feedback-input-name">Имя</label>
+                      <input class="feedback-input-name input" type="text" id="feedback-input-name" placeholder="Как к вам обращаться"/>
+                    </div>
+                    
+                    <div class="feedback-form-email">
+                      <label class="feedback-input-label" for="feedback-input-email">Email</label>
+                      <input class="feedback-input-email input" type="email" id="feedback-input-email" placeholder="Куда мне писать"/>
+                    </div>
+                  </div>
+                  
+                  <div class="feedback-form-msg">
+                    <label class="feedback-input-label" for="feedback-input-msg">Сообщение</label>
+                    <textarea class="feedback-input-msg input" id="feedback-input-msg" name="feedback-input-msg" placeholder="Кратко в чем суть"></textarea>
+                  </div>
+                  
+                  <div class="feedback-form-norobot clearfix">
+                    <label class="feedback-input-label" for="feedback-input-capcha">Введите код, указанный на картинке</label>
+                    <div class="feedback-form-capcha">
+                      <img class="feedback-capcha-img" src="../img/ico/norobot.png" alt="noRobot">
+                    </div>
+                    <input class="feedback-input-capcha input" type="text" id="feedback-input-capcha" placeholder="Введите код">
+                  </div>
+                  
+                  <div class="feedback-form-buttons clearfix">
+                    <button class="feedback-form-button active" type="submit">Отправить</button>
+                    <button class="feedback-form-button res" type="reset">Очистить</button>
+                  </div>
+                </form>
+	          	</div>
+        		</section>
+        	</div>
+        <div>
+      </article>
+
+    	<!-- <div class="empty"></div> -->
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+    	<div class="container">
+    		<div class="lock">
+    			<a href="#" class="lock-inner">ВХОД</a>
+    		</div>
+    		<div class="copyright">	&copy; 2016 Это мой сайт, пожалуйста, копируйте и воруйте его.</div>
+    	</div>
+    </footer>
+  	<!-- JavaScript -->
+		<script src="../bower/jquery/dist/jquery.min.js"></script>
+		<script src="../js/main.js"></script>
+	</body>
+</html>
