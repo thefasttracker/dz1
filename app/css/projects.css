@@ -1,0 +1,187 @@
+    
+
+/*=================================
+=            Projects            =
+=================================*/
+.projects-content-wrapper{
+	position: relative;
+    min-height: 100%;
+    display: block;
+    color: #727070;
+    margin: 33px 0 0 40px;
+    padding-bottom: 19px;
+}
+
+.projects-content-list {
+	/*text-align: justify;*/
+}
+
+.projects-content-item {
+	position: relative;
+	width: 167px;
+	max-width: 167px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 9px 24px 27px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 1px 8px rgba(9,9,9,.07);
+    -moz-box-shadow: 0 2px 1px rgba(9,9,9,.07);
+    box-shadow: 0 2px 1px rgba(9,9,9,.07);
+    border: 1px solid #b6b6b6;
+    text-align: center;
+    /*background-size: cover;*/
+    /*background-image: url(../img/pic/projects.jpg);*/
+}
+.projects-item-link{
+	text-decoration: none;
+}
+
+.projects-item-img{
+	width: 167px;
+	height: 119px;
+	background-size: cover;
+	display: block;
+}
+
+.projects-item-url {
+	text-align: center;
+    background-color: rgb(232,231,231);
+    background-color: rgba(65, 64, 64, 0.07);
+    line-height: 33px;
+    color: #727070;
+    font-family: 'open_sanssemibold';
+    font-size: 13px;
+}
+
+.projects-item-description {
+    font-family: "open_sanslight";
+    text-align: center;
+    font-size: 12px;
+    color: #727070;
+    line-height: 16px;
+    padding: 6px 7px 9px 3px;
+}
+
+.projects-content-new {
+	position: relative;
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    width: 167px;
+    max-width: 167px;
+    height: 131px;
+    margin-left: 30px;
+    overflow: hidden;
+    color: #727070;
+    border: 1px solid #c3c2c2;
+    border-radius: 5px;
+    background-color: #fbf9f9;
+    background-color: #faf9f9;
+    background-image: -webkit-linear-gradient(bottom, #e7e5e4 0%, #faf9f9 94%, white 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	margin: 9px 24px 27px 0;
+	vertical-align: top;
+}
+
+.projects-content-new:hover{
+    background-image: -webkit-linear-gradient(bottom, #c0bebe 0%, #e0dfdf 67%, #e8e7e7 100%);
+    background-image:         linear-gradient(to top, #c0bebe 0%, #e0dfdf 67%, #e8e7e7 100%);
+	box-shadow: inset 0 -2px 3px rgba(41, 41, 41, 0.05), inset 0 0 3px rgba(202, 202, 202, 0.61);
+}
+
+.projects-content-new:hover .projects-ico-wrapper{
+    background-image:         linear-gradient(to top, #c0bebe 0%, #e0dfdf 67%, #e8e7e7 100%);
+	box-shadow: 0 1px 0 white, inset 1px 1.9px 0 rgba(99, 99, 99, 0.75);
+}
+
+.projects-add-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.projects-ico-wrapper {
+	position: absolute;
+	top:20%;
+	left: 33%;
+    display: inline-block;
+    width: 53px;
+    height: 54px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: inset 1.3px 1px 0 0 rgba(199, 199, 199, .75);
+}
+.projects-new-ico {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 18px 0 0 17px;
+    background-image: url(../img/ico/polaroid.png);
+}
+.projects-add-new {
+	position: absolute;
+	top: 56%;
+    left: 12%;
+    padding: 20px 0 20px 0;
+    color: #727070;
+}
+
+/*=====  hover  ======*/
+
+
+.projects-item {
+      
+    position: relative;
+    
+}
+.projects-item .project-img {
+    box-sizing: border-box;
+    width: 100%;
+    /*height: 100%;*/
+}
+.projects-item .zoom-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    text-align: center;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.projects-item:hover .zoom-wrapper {	
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.projects-item .zoom-link {
+    font-size: 12px;
+    border: 1px solid #eff3f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+.projects-item:hover .project-img{
+	-moz-opacity: 0.20;
+	opacity:.20;
+	filter: alpha(opacity=20);
+}
+.projects-item:hover .hover-img{
+	background-color: rgb(114, 112, 112);
+}
+
+
+
+/*=====  End of Projects  ======*/
+
+
+
+
